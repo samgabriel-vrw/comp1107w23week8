@@ -250,6 +250,29 @@ void change_machine()
     // Optional TODO::The government makes businesses round up the nickels for numbers ending in 3 and 8.
 }
 
+
+    {
+
+            //For 150, money will equal 1
+            hundreds = money / 100;
+
+            int remainder= 0;
+            remainder = money % 100; 
+
+            fifties = remainder / 50;
+
+            remainder = remainder % 50;
+
+            twenties = remainder / 20;
+
+            remainder = remainder % 20;
+
+            tens = remainder / 10;
+
+            remainder = remainder % 10;
+
+            fives = remainder / 5;
+
 string rock_paper_scissors()
 {
     // TODO:: Query the user for an int between 1 and 3 for their choice of rock, paper scissors.
